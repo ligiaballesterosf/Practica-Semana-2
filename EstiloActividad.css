@@ -1,0 +1,98 @@
+body {
+    background-color: rosybrown;
+}
+
+.general {
+    background-color: grey;
+    width           : 350px;
+}
+
+.encabezado {
+    background       : url(img/back-chall-card.jpeg);
+    background-size  : 100%;
+    height           : 322px;
+    background-repeat: no-repeat;
+    background-size  : cover;
+
+}
+
+.cuadro {
+    background-color: white;
+    box-sizing      : border-box;
+    height          : 181px;
+    padding         : 30px 35px;
+}
+
+.textocuadro {
+    font-family: 'Montserrat', bold;
+    color      : white;
+    padding    : 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.cuadrito {
+    background-color: #e74c3c;
+}
+
+.circulo {
+    height          : 50px;
+    width           : 50px;
+    background-color: #bbb;
+    border-radius   : 75%;
+    display         : inline-block;
+    background-color: #e74c3c;
+    font-weight     : bold;
+    left            : 260px;
+    top             : 20px;
+}
+
+.titulo {
+    font-family: 'Montserrat', bold;
+    color      : #333333;
+    font-size  : 140%;
+    font-weight: bold;
+    margin     : 0px
+}
+
+.subtitulo {
+    font-family : 'Montserrat', sans-serif;
+    color       : #e74c3c;
+    text-align  : center;
+    font-size   : 110%;
+    padding-left: 0px;
+    text-align  : initial;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 85%;
+    margin     : 0px;
+    padding-top: 30px;
+}
+
+.relativo {
+    position: relative;
+}
+
+.absoluto {
+    position: absolute
+}
+
+.absolutocuadro {
+    left  : 0px;
+    bottom: 0px;
+
+}
+
+.textoarriba {
+    right: 10px;
+    top  : 15px;
+
+}
+
+.textoabajo {
+    right : 18px;
+    bottom: 20px
+}
