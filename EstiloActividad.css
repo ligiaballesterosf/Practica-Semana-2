@@ -5,22 +5,24 @@ body {
 .general {
     background-color: grey;
     width           : 350px;
+    height: 503px;
 }
 
 .encabezado {
-    background       : url(img/back-chall-card.jpeg);
-    background-size  : 100%;
-    height           : 322px;
-    background-repeat: no-repeat;
-    background-size  : cover;
+    background         : url(img/back-chall-card.jpeg);
+    background-size    : 100%;
+    height             : 322px;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: 13%;
 
 }
 
 .cuadro {
     background-color: white;
     box-sizing      : border-box;
-    height          : 181px;
     padding         : 30px 35px;
+    height: 181px;
 }
 
 .textocuadro {
@@ -28,24 +30,28 @@ body {
     color      : white;
     padding    : 10px;
     font-weight: bold;
-    text-align: center;
+    text-align : center;
 
 }
 
 .cuadrito {
     background-color: #e74c3c;
+    font-size: 13px;
 }
+.peque{font-size: 10px;
 
+}
 .circulo {
     height          : 50px;
     width           : 50px;
     background-color: #bbb;
     border-radius   : 75%;
-    display         : inline-block;
+    display         : block;
     background-color: #e74c3c;
     font-weight     : bold;
-    left            : 260px;
+    left            : 270px;
     top             : 20px;
+    padding: 4px;
 }
 
 .titulo {
@@ -53,7 +59,7 @@ body {
     color      : #333333;
     font-size  : 140%;
     font-weight: bold;
-    margin     : 0px
+    margin     : 0px;
 }
 
 .subtitulo {
@@ -63,6 +69,7 @@ body {
     font-size   : 110%;
     padding-left: 0px;
     text-align  : initial;
+    margin-top  : 8px;
 }
 
 .footer {
@@ -70,6 +77,13 @@ body {
     font-size  : 85%;
     margin     : 0px;
     padding-top: 30px;
+    opacity    : 0.5;
+
+}
+
+.espacio {
+    padding-right: 10px;
+
 }
 
 .relativo {
@@ -83,16 +97,14 @@ body {
 .absolutocuadro {
     left  : 0px;
     bottom: 0px;
+}
+
+.centrado {
+    display: block;
 
 }
 
-.textoarriba {
-    right: 10px;
-    top  : 15px;
+.textocirculo {
+    margin-top: 8px;
 
-}
-
-.textoabajo {
-    right : 18px;
-    bottom: 20px
 }
