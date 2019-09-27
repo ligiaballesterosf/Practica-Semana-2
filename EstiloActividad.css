@@ -5,7 +5,7 @@ body {
 .general {
     background-color: grey;
     width           : 350px;
-    height: 503px;
+    height          : 503px;
 }
 
 .encabezado {
@@ -22,7 +22,7 @@ body {
     background-color: white;
     box-sizing      : border-box;
     padding         : 30px 35px;
-    height: 181px;
+    height          : 181px;
 }
 
 .textocuadro {
@@ -36,11 +36,14 @@ body {
 
 .cuadrito {
     background-color: #e74c3c;
-    font-size: 13px;
+    font-size       : 13px;
 }
-.peque{font-size: 10px;
+
+.peque {
+    font-size: 10px;
 
 }
+
 .circulo {
     height          : 50px;
     width           : 50px;
@@ -51,7 +54,7 @@ body {
     font-weight     : bold;
     left            : 270px;
     top             : 20px;
-    padding: 4px;
+    padding         : 4px;
 }
 
 .titulo {
@@ -108,3 +111,28 @@ body {
     margin-top: 8px;
 
 }
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    opacity    : 0.5;
+    font-size  : 70%;
+    line-height: 25px;
+    font-weight: bolder;
+    text-align : initial;
+    display: none;
+    padding: 10px;
+}
+
+.general:hover .encabezado{height: 181px; background-color: black; opacity: 0.5;
+
+}
+
+
+.general:hover .cuadro{height: 322px;
+
+}
+
+.general:hover .texto{display: block;
+
+}
+.general:hover .footer{padding-top: 42px;}
